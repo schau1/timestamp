@@ -31,8 +31,8 @@ app.use(function(req,res){
 
 
 console.log("Timestamp API service starting...")
-// app.listen(process.env.PORT || <default port>) 
-app.listen(8080);    // always use 8080 for c9
+app.listen(process.env.PORT || 8080) 
+//app.listen(8080);    // always use 8080 for c9
 
 
 function MonthNumToString(month){
